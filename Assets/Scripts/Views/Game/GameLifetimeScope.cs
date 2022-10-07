@@ -10,7 +10,7 @@ public class GameLifetimeScope : LifetimeScope
     protected override void Configure(IContainerBuilder builder)
     {
         builder.RegisterEntryPoint<GamePresenter>(Lifetime.Singleton);
-        builder.Register<IPlayerModel, PlayerModel>(Lifetime.Singleton);
         builder.RegisterComponent(playerScript);
+        builder.Register<IPlayerModel, PlayerModel>(Lifetime.Singleton);
     }
 }
