@@ -6,7 +6,7 @@ using VContainer.Unity;
 
 public class HomePresenter : IStartable
 {
-    private HomeScene _homeScene;
+    private readonly HomeScene _homeScene;
 
     [Inject]
     public HomePresenter(HomeScene homeScene)
@@ -16,7 +16,7 @@ public class HomePresenter : IStartable
 
     public void Start()
     {
-        _homeScene.StartButton.onClick.AddListener(
+        _homeScene.startButton.onClick.AddListener(
             () => SceneManager.LoadScene("GameScene")
         );
     }

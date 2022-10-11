@@ -36,13 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/Views/Home/HomePresenter.cs" />
      <Compile Include="Assets/Scripts/Views/Game/GameLifetimeScope.cs" />
      <Compile Include="Assets/Scripts/Views/Game/GamePresenter.cs" />
      <Compile Include="Assets/Scripts/Views/Game/PlayerScript.cs" />
-     <Compile Include="Assets/Scripts/Models/PlayerModel.cs" />
-     <Compile Include="Assets/Scripts/Views/Home/HomePresenter.cs" />
-     <Compile Include="Assets/Scripts/Views/Home/HomeScene.cs" />
      <Compile Include="Assets/Scripts/Views/Home/HomeLifetimeScope.cs" />
+     <Compile Include="Assets/Scripts/Models/PlayerModel.cs" />
+     <Compile Include="Assets/Scripts/Views/Home/HomeScene.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

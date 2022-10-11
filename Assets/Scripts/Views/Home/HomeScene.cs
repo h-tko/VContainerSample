@@ -5,5 +5,5 @@ using UnityEngine.UI;
 
 public class HomeScene : MonoBehaviour
 {
-    public Button StartButton;
+    public Button startButton;
 }
